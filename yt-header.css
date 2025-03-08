@@ -1,0 +1,149 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+    z-index: 100;
+}
+
+.left-sec{
+
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.mid-sec{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex:1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    
+}
+
+
+.hamburger{
+    margin-left: 24px;
+    height: 20px;
+}
+
+.youtube{
+    margin-left: 20px;
+    height: 20px;
+}
+
+
+
+.voice{
+    height: 20px;
+    width: 40px;
+   margin-left: -6px;
+   
+}
+
+.voice-btn{
+
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    border: none;
+    background-color: white;
+}
+.search-btn{
+    height: 39px;
+    width: 66px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(193, 192, 192);
+}
+
+.SearchTab{
+    flex: 1;
+    height: 36px;
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px
+    rgb(0, 0, 0, 0.05);
+    width: 0;
+}
+
+.SearchTab::placeholder{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+
+}
+
+.right-sec{
+    margin-right: 20px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+
+.upload{
+    height: 24px;
+    width: 40px;
+}
+
+.notifi{
+    height: 24px;
+    width: 40px;
+}
+
+.apps{
+    
+    height: 25px;
+    width: 40px;
+   margin-left: -6px;
+}
+.searchele{
+    color: black;
+    height: 20px;
+    width: 40px;
+   margin-left: -6px;
+}
+
+.profilepic{
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+}
+
+.notifi-edit{
+    position: relative;
+}
+.notifi-count{
+    position: absolute;
+    font-size: 9px;
+    background-color: rgb(249, 12, 12);
+    right: 0;;
+    top: -1px;
+    border-radius: 50px;
+    color: white;
+    font-family: Roboto, Arial;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
