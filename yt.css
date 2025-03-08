@@ -53,8 +53,27 @@ p {
   row-gap: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
 }
+
+/* Add responsive grid layouts */
+@media (max-width: 1200px) {
+  .vid-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 850px) {
+  .vid-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 550px) {
+  .vid-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 body {
   margin: 0;
   padding-top: 80px;  

@@ -30,3 +30,14 @@
     font-family: Roboto, Arial, sans-serif;
     font-size: 8px;
 }
+
+@media (max-width: 768px) {
+  .side-bar {
+    width: 0;
+    display: none;
+  }
+
+  body {
+    padding-left: 0;
+  }
+}

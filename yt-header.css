@@ -147,3 +147,35 @@
     padding-top: 2px;
     padding-bottom: 2px;
 }
+
+@media (max-width: 768px) {
+  .mid-sec {
+    flex: 0;
+    margin: 0 10px;
+  }
+
+  .SearchTab {
+    display: none;
+  }
+
+  .search-btn {
+    display: none;
+  }
+
+  .voice-btn {
+    display: none;
+  }
+
+  .right-sec {
+    margin-right: 10px;
+    width: auto;
+  }
+
+  .upload {
+    display: none;
+  }
+
+  .apps {
+    display: none;
+  }
+}
