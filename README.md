@@ -19,5 +19,5 @@ A fully responsive **YouTube Clone** built using **HTML, CSS, and JavaScript**, 
 | **Google Fonts** | Custom fonts for a YouTube-like experience |
 | **Icons & SVGs** | YouTube-like UI components |
 
-## 📂 Project Structure
+
 
